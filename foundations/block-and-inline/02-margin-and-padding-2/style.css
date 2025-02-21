@@ -1,3 +1,4 @@
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,21 +8,32 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+
+
 }
 
 .title {
   background: #e3f4ff;
+  border: 10px, white, solid;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 20px;
+  border: 10px, white, solid;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 20px;
+  text-align: center;
+  border: 10px, white, solid;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+  padding: 10px;
 }
